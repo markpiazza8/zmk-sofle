@@ -110,7 +110,7 @@
                 &kp ESC      &kp N1      &kp N2      &kp N3       &kp N4        &kp N5  &kp LC(LA(TAB))    &kp N6      &kp N7        &kp N8       &kp N9      &kp N0      &kp DEL
                 &kp TAB      &kp Q       &kp W       &kp E        &kp R         &kp T   &kp ESC            &kp Y       &kp U         &kp I        &kp O       &kp P       &kp BSPC
                 &kp ESC      &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHIFT F  &kp G   &kp LEFT           &kp H       &mt LSHIFT J  &mt LCTRL K  &mt LALT L  &mt LGUI Z  &kp ENTER
-                &kp LCTRL    &kp Z       &kp X       &kp C        &kp V         &kp B   &kp RIGHT          &kp N       &kp M         &kp PERIOD   &kp COMMA   &mo 3       &mo 4
+                &kp LCTRL    &kp Z       &kp X       &kp C        &kp V         &kp B   &kp RIGHT          &kp N       &kp M         &kp COMMA   &kp PERIOD   &mo 3       &mo 4
                 &kp K_CMENU  &none       &none       &kp TAB      &mo 2         &mo 1   &none              &kp LSHIFT  &lt 3 SPACE   &kp BSPC     &kp DEL     &none
             >;
 
@@ -138,7 +138,7 @@
                 &trans      &kp LS(LG(S))  &none         &kp LS(F10)   &none         &none         &trans    &kp HOME      &kp PG_DN     &kp PG_UP     &kp END    &none   &trans
                 &trans      &kp LGUI       &kp LALT      &kp LCTRL     &kp LSHIFT    &none         &trans    &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT  &none   &kp ENTER
                 &trans      &none          &none         &none         &none         &none         &trans    &none         &kp ENTER     &kp ESC       &kp TAB    &none   &trans
-                &trans      &trans         &trans        &trans        &trans        &trans        &trans    &kp LSHIFT    &kp BSPC      &kp DEL       &trans     &trans
+                &trans      &trans         &trans        &trans        &trans        &trans        &trans    &kp DEL       &kp BSPC      &kp BSPC      &trans     &trans
             >;
 
             sensor-bindings = <&scroll_lr &rsr_trans>;
